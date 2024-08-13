@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #eeee;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeee;
+  padding: 17px;
+  box-shadow: 0px 2px 2px 2px rgb(181, 179, 179);
+}
+nav .logo {
+  font-size: 25px;
+  margin-left: 20px;
+}
+nav ul {
+  margin-right: 40px;
+  margin-top: 7px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  margin: 0 22px;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+nav ul i {
+  font-size: 22px;
+}
+#home {
+  color: rgb(5, 167, 167);
+}
+nav ul li a:hover {
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+nav ul li i:hover {
+  color: gray;
+  cursor: pointer;
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+}
+.main-text {
+  margin-top: 150px;
+}
+.main-text h1 {
+  font-size: 64px;
+}
+.top {
+  color: rgb(4, 140, 140);
+}
+.main-text button {
+  width: 145px;
+  height: 40px;
+  background-color: rgb(4, 140, 140);
+  border: none;
+  font-size: 22px;
+  color: white;
+  margin-top: 20px;
+}
+.main-text p {
+  margin: 10px 0px;
+}
+.main-text button:hover {
+  border: 3px solid rgb(3, 128, 128);
+  background: transparent;
+  color: rgb(2, 121, 121);
+  cursor: pointer;
+}
+
+.trend .head {
+  text-align: center;
+  padding: 30px;
+  margin-top: 32px;
+}
+.trends .head {
+  text-align: center;
+  padding: 30px;
+  margin-top: 32px;
+}
+.head span {
+  color: rgb(2, 164, 164);
+}
+.card {
+  display: flex;
+  justify-content: center;
+}
+.card .crd {
+  width: 300px;
+  height: 500px;
+  background-color: #fff;
+  margin-inline: 11px;
+}
+.crd img {
+  width: 95%;
+  padding: 20px;
+  border-radius: 31px;
+  cursor: pointer;
+}
+.crd-text {
+  margin-left: 16px;
+  padding: 8px;
+}
+.crd-text button {
+  width: 130px;
+  height: 33px;
+  border: none;
+  background-color: rgb(5, 141, 141);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 11px;
+}
+.crd-text i {
+  color: rgb(255, 149, 0);
+}
+.blog {
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  height: 300px;
+  background-color: #fff;
+  margin-inline: 22px;
+  border-radius: 11px;
+  transition: 0.5s ease;
+}
+.blog:hover {
+  transition: 0.5s ease;
+  width: 520px;
+  height: 320px;
+}
+.blog img {
+  width: 85%;
+  padding: 22px;
+}
+.blog-text {
+  padding: 12px;
+  margin-top: 33px;
+}
+.blog-text a {
+  width: 130px;
+  padding: 4px;
+  height: 18px;
+  background-color: rgb(4, 136, 136);
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 5px;
+  position: relative;
+  top: 23px;
+}
+.letter {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 44px;
+  background-color: rgb(4, 4, 100);
+  margin-top: 50px;
+}
+.input {
+  display: flex;
+}
+.input input {
+  width: 330px;
+  height: 33px;
+  outline: none;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+}
+.input button {
+  width: 100px;
+  height: 33px;
+  background-color: rgb(2, 173, 173);
+  color: white;
+  border: none;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.footer-text {
+  margin-inline: 85px;
+  padding: 28px;
+}
+.footer-text p {
+  margin-top: 11px;
+}
+
+.about {
+  display: none;
+  margin-top: 40px;
+}
+
+.aboutus {
+  background-color: rgb(92, 92, 235);
+  color: white;
+  padding: 50px;
+  font-size: 16px;
+}
+.me {
+  display: flex;
+  justify-content: center;
+  width: 700px;
+  background-color: #fff;
+  padding: 33px;
+  margin-left: 20%;
+  margin-top: 4%;
+  margin-bottom: 5%;
+}
+.me img {
+  width: 54%;
+}
+.contact {
+  margin: 30px 0;
+  display: none;
+}
+.conttactus {
+  background-color: rgb(92, 92, 235);
+  color: white;
+  padding: 50px;
+  font-size: 16px;
+}
+.contactme {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin-top: 5%;
+  margin-left: 10%;
+  background-color: #fff;
+}
+.contactme img {
+  width: 55%;
+}
+.contact-text {
+  padding: 22px;
+  width: 600px;
+}
+.contact-text p {
+  margin-top: 12px;
+}
+.form {
+  text-align: center;
+  margin-top: 5%;
+}
+.form input {
+  width: 300px;
+  height: 45px;
+  padding: 5px;
+  margin-top: 11px;
+}
+.form button {
+  width: 300px;
+  height: 36px;
+  background-color: rgb(2, 54, 54);
+  color: white;
+  font-size: 18px;
+  border: none;
+  margin-top: 22px;
+}
+.cart {
+  margin: 42px 0;
+  display: flex;
+  justify-content: center;
+  display: none;
+}
+.cart-text {
+  padding: 20px;
+  margin-top: 22px;
+}
+.cart-text p {
+  margin-top: 12px;
+}
+.cart-text h2 {
+  margin-top: 11px;
+}
+.cart-text .btn button {
+  width: 140px;
+  height: 40px;
+  background-color: rgb(255, 89, 0);
+  color: white;
+  border: none;
+  font-size: 18px;
+  margin-inline: 11px;
+  margin-top: 22px;
+  cursor: pointer;
+}
+.back-btn {
+  width: 140px;
+  height: 40px;
+  background-color: rgb(4, 81, 81);
+  color: white;
+  border: none;
+  font-size: 18px;
+  margin-inline: 11px;
+  margin-top: 22px;
+  margin-top: 22px;
+  cursor: pointer;
+}

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="logo"><h1>Trends</h1></div>
+        <ul>
+          <li>
+            <a id="home" onclick="home()">Home</a>
+            <a id="shops" onclick="shop()">Shops</a>
+            <a id="blog" onclick="blog()">Blog</a>
+            <a id="about" onclick="about()">About</a>
+            <a id="contact" onclick="contact()">Contact</a>
+            <i class="fa-solid fa-cart-shopping"><sup id="cartCount" style="color: red; font-size: 22px; font-weight: 600;">0</sup></i>
+          </li>
+        </ul>
+      </nav>
+      <!-- main page -->
+      <div class="main">
+        <div class="main-text">
+          <h2>Trends</h2>
+          <h1 class="top">Super Value Deals</h1>
+          <h1>On All Products</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non.</p>
+          <button>Explore</button>
+        </div>
+        <img src="./images/m3.png" alt="" />
+      </div>
+
+      <!-- Men's Card -->
+      <div class="trend">
+        <div class="head">
+          <h1>Trends <span>Men's Wear</span></h1>
+        </div>
+        <div class="card">
+          <div class="crd">
+            <img src="./images/srt1.webp" alt="" onclick="showImage(this)"/>
+            <div class="crd-text">
+              <h2>Cotton Trending Shirt</h2>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-sharp-half-stroke"></i> <br />
+              <button>Add to Cart</button>
+            </div>
+          </div>
+          <div class="crd">
+            <img src="./images/srt2.webp" alt="" onclick="showImage(this)"/>
+            <div class="crd-text">
+              <h2>Cotton Trending Shirt</h2>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-sharp-half-stroke"></i> <br />
+              <button>Add to Cart</button>
+            </div>
+          </div>
+          <div class="crd">
+            <img src="./images/srt6.webp" alt="" onclick="showImage(this)"/>
+            <div class="crd-text">
+              <h2>Cotton Trending Shirt</h2>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-sharp-half-stroke"></i> <br />
+              <button>Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Women's Card  -->
+      <div class="trend" id="trends">
+        <div class="head">
+          <h1>Trends <span>Women's Wear</span></h1>
+        </div>
+        <div class="card">
+          <div class="crd">
+            <img src="./images/wn4.webp" alt="" onclick="showImage(this)"/>
+            <div class="crd-text">
+                <h2>Trending Girl's Top</h2>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-sharp-half-stroke"></i> <br />
+            <button>Add to Cart</button>
+            </div>
+          </div>
+          <div class="crd">
+            <img src="./images/wn5.webp" alt="" onclick="showImage(this)"/>
+           <div class="crd-text">
+            <h2>Trending Girl's Top</h2>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-sharp-half-stroke"></i> <br />
+            <button>Add to Cart</button>
+           </div>
+          </div>
+          <div class="crd">
+            <img src="./images/wn6.webp" alt="" onclick="showImage(this)"/>
+            <div class="crd-text">
+                <h2>Trending Girl's Top</h2>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-sharp-half-stroke"></i> <br />
+            <button>Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <!-- about us -->
+     <div class="about">
+        <div class="aboutus">
+            <h1>#KnowUs</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="me">
+            <img src="./images/lap.png" alt="">
+            <div class="about-text">
+                <h1>Who we are?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, iste! Error necessitatibus voluptas sapiente! Nisi vel labore praesentium atque? Vero provident veritatis velit dolore, laudantium amet consequuntur sed vel non. Quae inventore distinctio unde facere delectus ducimus beatae sequi, laboriosam nemo numquam quibusdam, tempora dignissimos repellat labore. Beatae commodi dicta laborum veniam repudiandae nobis quisquam corrupti adipisci explicabo.</p>
+            </div>
+        </div>
+     </div>
+
+
+     <!-- contact us -->
+     <div class="contact">
+        <div class="conttactus">
+            <h1>#Let's Connect</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, recusandae maxime.</p>
+        </div>
+        <div class="contactme">           
+            <div class="contact-text">
+                <h1>Visit Our Office or Contact <br> Us Today</h1>
+                <p>Address: Dablin Park, England, New York.</p>
+                <p>Contact: dumiemail@gmail.com</p>
+                <p>Number: 9876543210</p>
+            </div>
+            <img src="./images/map.PNG" alt="">
+        </div>
+        <div class="form">
+            <h1>Connet With Us. Fill Form </h1>
+            <input type="text" placeholder="Enter Email"><br>
+            <input type="text" placeholder="Enter Email"><br>
+            <input type="text" placeholder="Enter Email"><br>
+            <input type="text" placeholder="Enter Email"><br>
+            <input type="text" placeholder="Enter Email"><br>
+            <button>Submit</button>
+
+        </div>
+     </div>
+
+
+
+     <!-- cart  -->
+      <div class="cart">
+        <img src="" id="newImg" alt="">
+        <div class="cart-text">
+            <h1>Trends Offer : Trending Shop <br> Now</h1>
+            <h2>Special Price</h2>
+            <h2>$11</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+            <div class="btn">
+            <button>Buy Now</button>
+            <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <button class="back-btn">Back</button>
+        </div>
+      </div>
+
+
+      <!-- blog  -->
+      <div class="trends">
+        <div class="head">
+          <h1>Trends <span>Blog</span></h1>
+        </div>
+        <div class="card">
+          <div class="blog">
+            <img src="./images/tr1.webp" alt="" />
+            <div class="blog-text">
+              <h2>Trending Girl's Cloths</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Perspiciatis, non nobis.
+              </p>
+              <a href="https://www.apetogentleman.com/">Read More</a>
+            </div>
+          </div>
+
+          <div class="blog">
+            <img src="./images/tr3.webp" alt="" />
+            <div class="blog-text">
+              <h2>Trending Boys's Cloths</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Perspiciatis, non nobis.
+              </p>
+              <a href="https://www.apetogentleman.com/">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- News Letter -->
+      <div class="letter">
+        <div class="letter-text">
+          <h1>Sign Up For NewsLetter</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="input">
+          <input type="email" placeholder="Enter Your Email" />
+          <button>Sign Up</button>
+        </div>
+      </div>
+
+      <!-- Footer  -->
+      <div class="footer">
+        <div class="footer-text">
+          <h2>Trends</h2>
+          <p>Service</p>
+          <p>Customer</p>
+          <p>Satisfaction</p>
+        </div>
+        <div class="footer-text">
+          <h2>About Us</h2>
+          <p>
+            Address: Lorem ipsum dolor sit amet,
+            elit, Ut aut.
+          </p>
+          <p>Service</p>
+          <p>Customer</p>
+          <p>Satisfaction</p>
+        </div>
+        <div class="footer-text">
+          <h2>Contact</h2>
+          <p>9876543210</p>
+          <p>Customer</p>
+          <p>Comming Up</p>
+          <p>New Arrival</p>
+        </div>
+        <div class="footer-text">
+          <h2>Trending</h2>
+          <p>Service</p>
+          <p>Customer</p>
+          <p>Shops</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
